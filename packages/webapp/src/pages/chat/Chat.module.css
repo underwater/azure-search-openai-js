@@ -1,0 +1,44 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.chatRoot {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.chatComponent {
+  --azc-bg: #f2f2f2;
+  flex: 1;
+  max-width: 1024px;
+}
+
+.chatAnalysisPanel {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 89vh;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.chatSettingsSeparator {
+  margin-top: 15px;
+}
+
+.loadingLogo {
+  font-size: 28px;
+}
+
+.commandsContainer {
+  display: flex;
+  align-self: flex-end;
+}
+
+.commandButton {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
